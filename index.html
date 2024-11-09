@@ -25,11 +25,10 @@
 
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-nav">
-          <a class="logo" href="./index.html"
-            >Web<span class="logo-color">Studio</span></a
-          >
+          <a class="logo header-logo" href="./index.html"
+            >Web<span class="logo-color">Studio</span></a>
           <ul class="header-nav-list">
             <li class="header-nav-item">
               <a class="header-nav-link current" href="./index.html">Studio</a>
@@ -41,9 +40,9 @@
               <a class="header-nav-link" href="">Contacts</a>
             </li>
           </ul>
-          <button class="humberger" type="button">
-              <svg class="humburger-icon" width="16" height="14">
-                <use href="./images/icons.svg#icons2-hmbr"></use>
+          <button class="burger-btn" type="button">
+              <svg class="burger-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-burger"></use>
               </svg>
             </button>
         </nav>
@@ -58,7 +57,19 @@
           </ul>
         </address>
 
-        <!------ MOBILE-MODAL ----->
+        <!------ MOBILE-MENU ----->
+      <div class="modal-mobile">
+        <div class="nav-modal-mobile">
+          <button class="button-element button-nav-mobile" type="button">
+            <svg class="button-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="nav-list-mobile">
+            <li class="link-header-mobile"><a href="">Studio</a></li>
+            <li class="link-header-mobile"><a href="">Portfolio</a></li>
+            <li class="link-header-mobile"><a href="">Contacts</a></li>
+          </ul>
           <address class="address-mobile">
             <ul class="address-title-mobile">
               <li>
@@ -70,6 +81,7 @@
             </ul>
             </ul>
           </address>
+
           <ul class="social-media-icons mobile">
             <li class="social-media-item">
               <a href="" class="social-media-icons-footer">
@@ -103,7 +115,7 @@
         </div>
       </div>
     </div>
-    </header>
+  </header>
 
     <main>
       <section class="section-hero">
